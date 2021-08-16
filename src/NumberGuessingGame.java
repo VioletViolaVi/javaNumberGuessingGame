@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class NumberGuessingGame {
     public static void main(String[] args) {
-        System.out.println("Guess between 1 and 50 (inclusive)!");
+        System.out.println("Guess between 1 and 200 (inclusive)!");
 
         // random generated num
         Random rand = new Random();
-        int computerGuess = rand.nextInt(50) +1;
+        int computerGuess = rand.nextInt(200) +1;
 
         // inputted num
         Scanner scan = new Scanner(System.in);
