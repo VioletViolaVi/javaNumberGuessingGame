@@ -16,6 +16,7 @@ public class NumberGuessingGame {
         // while loop for guesses
         boolean continueGame = true;
         while (continueGame) {
+            // restrict permitted numbers
             if (userGuess <= 0 || userGuess >= 201) {
                 System.out.println("Out of bounds! Guess between 1 and 200 (inclusive)!");
                 userGuess = scan.nextInt();
